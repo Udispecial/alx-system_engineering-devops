@@ -1,2 +1,2 @@
 #!/bin/bash
-type /pmt/iamafile
+type /tmp/iamafile
