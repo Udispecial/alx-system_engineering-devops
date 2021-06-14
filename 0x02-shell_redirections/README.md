@@ -41,3 +41,5 @@ Assignment 14,Create a script that takes a list of words as input and prints onl
 +Outout format: One line one word
 +Words should be sorted
 sort | uniq -
+Assignment 15, Display lines containing the pattern “root” from the file /etc/passwd
+grep -i "root" /etc/passwd
