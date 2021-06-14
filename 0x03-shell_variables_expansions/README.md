@@ -19,3 +19,7 @@ Assignment 4, 3-path
 
 echo $((`echo $PATH | grep -o ":/" | wc -l`+ 1))
 
+Assignment 5, Global Variable
+
+printenv
+
