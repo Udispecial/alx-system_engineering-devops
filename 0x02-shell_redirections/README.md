@@ -43,3 +43,5 @@ Assignment 14,Create a script that takes a list of words as input and prints onl
 sort | uniq -
 Assignment 15, Display lines containing the pattern “root” from the file /etc/passwd
 grep -i "root" /etc/passwd
+Assignment 16 Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+grep -c -i "bin" /etc/passwd
