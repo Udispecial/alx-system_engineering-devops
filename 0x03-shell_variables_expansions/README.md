@@ -40,3 +40,7 @@ export HOLBERTON="Betty"
 Assignment 9, True Knowledge
 
 echo $(($TRUEKNOWLEDGE + 128))
+
+Assignment 10, Divide and rule
+
+echo $(($POWER / $DIVIDE))
