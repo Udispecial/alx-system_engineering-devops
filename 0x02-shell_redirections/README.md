@@ -114,3 +114,8 @@ tr -d "cC"
 Assignment 22, Write a script that reverse its input
 
 rev
+
+Assignment 23, Write a script that displays all users and their home directories, sorted by users
++ Based on the the /etc/passwd file
+
+cut -d ':' -f 1,6 /etc/passwd | sort
