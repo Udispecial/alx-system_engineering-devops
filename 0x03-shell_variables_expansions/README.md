@@ -44,3 +44,11 @@ echo $(($TRUEKNOWLEDGE + 128))
 Assignment 10, Divide and rule
 
 echo $(($POWER / $DIVIDE))
+
+Assignment 11, Write a script that displays the result of BREATH to the power LOVE
+
++ BREATH and LOVE are environment variables
+
++ The script should display the result, followed by a new line
+
+echo $(($BREATH**$LOVE))
