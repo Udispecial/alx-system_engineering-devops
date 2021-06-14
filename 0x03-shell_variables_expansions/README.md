@@ -23,3 +23,6 @@ Assignment 5, Global Variable
 
 printenv
 
+Assignment 6, Local Variables
+
+set
