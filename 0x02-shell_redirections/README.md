@@ -21,3 +21,6 @@ Assignment 8, Creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*
 echo "Holberton School" > \\\*\\\\"'\"Holberton School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
 Assignment  9, Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it
 ls -la > ls_cwd_content
+Assignment 10, Write a script that duplicate the last line of the file iacta
+#!/bin/bash
+tail -n 1 iacta >> iacta
