@@ -17,3 +17,5 @@ assignment 6, Display the first 10 lines of /etc/passwd
 head -10 /etc/passwd
 Assignment 7, Write a script that displays the third line of the file iacta
 cat iacta | head -3 | tail -1
+Assignment 8, Creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the test Holberton School ending by a new line
+echo "Holberton School" > \\\*\\\\"'\"Holberton School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
