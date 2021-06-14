@@ -52,3 +52,7 @@ Assignment 11, Write a script that displays the result of BREATH to the power LO
 + The script should display the result, followed by a new line
 
 echo $(($BREATH**$LOVE))
+
+Assignment 12, Write a script that converts a number from base 2 to base 10
+
+echo $((2#$BINARY))
