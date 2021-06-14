@@ -36,3 +36,8 @@ Requirements
 +One file per line
 +Sorted from the newest to the oldest
 ls -t1 | head -n 10
+Assignment 14,Create a script that takes a list of words as input and prints only words that appear exactly once
++Input format: One line, one word
++Outout format: One line one word
++Words should be sorted
+sort | uniq -
