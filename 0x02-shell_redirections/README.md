@@ -53,3 +53,5 @@ Assignment 19, Display all lines of the file /etc/ssh/sshd_config starting with 
 grep -i "^[a-z]" /etc/ssh/sshd_config
 Assignment 20, Replace all characters A and c from input to Z and e respectively
 tr "A" "Z" | tr "c" "e"
+Assignment 21, Create a script that removes all letters c and C from input
+tr -d "cC"
