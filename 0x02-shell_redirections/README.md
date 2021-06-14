@@ -15,3 +15,5 @@ Assignment 5, Display the last 10 lines of /etc/passwd
 tail -n 10 /etc/passwd
 assignment 6, Display the first 10 lines of /etc/passwd
 head -10 /etc/passwd
+Assignment 7, Write a script that displays the third line of the file iacta
+cat iacta | head -3 | tail -1
