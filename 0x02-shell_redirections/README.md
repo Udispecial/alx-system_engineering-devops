@@ -129,3 +129,7 @@ Assignment 24, Write a command that finds all empty files and directories in the
 + You are not allowed to use basename, grep, egrep, fgrep or rgrep
 
 find . -empty | rev | cut -d '/' -f 1 | rev
+
+Assignment 25, A gif is worth ten thousand words
+
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
