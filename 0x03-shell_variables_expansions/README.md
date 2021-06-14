@@ -11,3 +11,7 @@ Assignment 2, hello You
 
 echo "hello $USER"
 
+Assignment 3, 2-path
+
+export PATH=$PATH:/action
+
