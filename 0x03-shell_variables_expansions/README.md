@@ -36,3 +36,7 @@ Assignment 8, Create a script that creates a new global variable
 + Value: Betty
 
 export HOLBERTON="Betty"
+
+Assignment 9, True Knowledge
+
+echo $(($TRUEKNOWLEDGE + 128))
