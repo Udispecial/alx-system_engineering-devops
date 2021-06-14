@@ -51,3 +51,5 @@ Assignment 18, Display all the lines in the file /etc/passwd that do not contain
 grep -i -v "bin" /etc/passwd
 Assignment 19, Display all lines of the file /etc/ssh/sshd_config starting with a letter
 grep -i "^[a-z]" /etc/ssh/sshd_config
+Assignment 20, Replace all characters A and c from input to Z and e respectively
+tr "A" "Z" | tr "c" "e"
