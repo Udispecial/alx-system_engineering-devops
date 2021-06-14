@@ -26,3 +26,7 @@ printenv
 Assignment 6, Local Variables
 
 set
+
+Assignment 7, create a script that create a new local variable
+
+BETTY="Holberton"
