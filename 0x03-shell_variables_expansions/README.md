@@ -30,3 +30,9 @@ set
 Assignment 7, create a script that create a new local variable
 
 BETTY="Holberton"
+
+Assignment 8, Create a script that creates a new global variable
++ Name: HOLBERTON
++ Value: Betty
+
+export HOLBERTON="Betty"
