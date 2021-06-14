@@ -9,3 +9,5 @@ Confused Smiley
 echo "O.o"\
 Assignment 3 Display the content of the /etc/passwd file
 cat /etc/passwd
+Assignment 4, display the content of /etc/passwd and /etc/hosts
+cat /etc/passwd; cat /etc/hosts
