@@ -19,3 +19,5 @@ Assignment 7, Write a script that displays the third line of the file iacta
 cat iacta | head -3 | tail -1
 Assignment 8, Creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the test Holberton School ending by a new line
 echo "Holberton School" > \\\*\\\\"'\"Holberton School\"\\'"\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+Assignment  9, Write a script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it
+ls -la > ls_cwd_content
