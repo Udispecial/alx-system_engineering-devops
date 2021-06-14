@@ -133,3 +133,7 @@ find . -empty | rev | cut -d '/' -f 1 | rev
 Assignment 25, A gif is worth ten thousand words
 
 find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
+
+Assignment 26, Create a script that decodes acrostics that use the first letter of each line
+
+find -type f -name "*.gif" | rev | cut -d "/" -f 1 | cut -d '.' -f 2- | rev | LC_ALL=C sort -f
