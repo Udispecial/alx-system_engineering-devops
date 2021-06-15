@@ -79,3 +79,6 @@ Assignment 15, Decimal to Hex
 printf '%x\n' $DECIMAL
 
 
+Assignment 16, Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII
+
+tr `echo {a..z} | tr -d ' '` `echo {n..z} $(echo {a..m}) | tr -d ' '` | tr `echo {A..Z} | tr -d ' '` `echo {N..Z} $(echo {A..M}) | tr -d ' '`
