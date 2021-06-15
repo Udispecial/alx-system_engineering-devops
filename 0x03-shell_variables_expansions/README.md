@@ -90,4 +90,8 @@ Assignment 17, Write a script that prints every other line from the input, start
 
 perl -lne 'print if $. % 2 == 1'
 
+Assignment 18, I'm an instant star. Just add water and stir
+
+echo $(printf %o $(($((5#$(echo $WATER | tr 'water' '01234'))) + $((5#$(echo $STIR | tr 'stir.' '01234'))))) | tr '01234567' 'behlnort')
+
 
