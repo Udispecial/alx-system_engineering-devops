@@ -73,4 +73,9 @@ Assignemt 14, Float
 
 printf "%.2f" $NUM | sort
 
+Assignment 15, Decimal to Hex
+
+
+printf '%x\n' $DECIMAL
+
 
