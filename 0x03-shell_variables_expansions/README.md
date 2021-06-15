@@ -68,3 +68,9 @@ Create a script that prints all possible combinations of two letters, except oo
 + our script file should contain maximum 64 characters
 
 echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"
+
+Assignemt 14, Float
+
+printf "%.2f" $NUM | sort
+
+
